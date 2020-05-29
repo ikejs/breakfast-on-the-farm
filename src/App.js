@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Intro from './Intro';
+import Tour from './Tour';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  constructor(props) {
+    super(props);
+    
+    this.state = {
+      introActive: true,
+      tourActive: false
+    }
+
+  }
+
+  render() {
+    return (
+      <div>
+        <Intro
+          enabled={this.state.introActive}
+          hideIntro={() => {
+            this.setState({ introActive: false })
+            this.setState({ tourActive: true });
+          }} />
+        <Tour enabled={this.state.tourActive} />
+      </div>
+    );
+  }
 }
 
 export default App;
