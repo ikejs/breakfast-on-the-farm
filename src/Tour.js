@@ -18,7 +18,7 @@ const stopAllAudio = () => {
             audios[i].currentTime = 0;
         }
     }
-}, true);
+  }, true);
 }
 
 class Tour extends Component {
@@ -65,6 +65,12 @@ class Tour extends Component {
                 document.getElementById(2).pause();
               } else {
                 stopAllAudio();
+                document.getElementById(2).load();
+                document.getElementById(3).load();
+                document.getElementById(4).load();
+                document.getElementById(5).load();
+                document.getElementById(6).load();
+                document.getElementById(7).load();
                 document.getElementById(2).play();
               }
             }}
@@ -119,7 +125,11 @@ class Tour extends Component {
               }
             }}
           ><h3><strong><FontAwesomeIcon icon={this.state.seven.playing ? faPause : faPlay} /> STATION 7</strong></h3></button>
-          <ReactAudioPlayer
+
+
+
+
+<ReactAudioPlayer
             id="2"
             src={sound2}
             onPlay={() => {
