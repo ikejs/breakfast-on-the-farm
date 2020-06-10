@@ -19,14 +19,17 @@ class App extends Component {
   render() {
     return (
       <div>
-        <img 
-          className="w-100" 
-          src={logo}
-          onClick={() => {
-            this.setState({ introActive: true });
-            this.setState({ tourActive: false });
-          }}
-        />
+        <div className="pb-2" style={{backgroundColor: '#5180AD'}}>
+          <img 
+            className="w-100" 
+            src={logo}
+            alt="Vir Clar"
+            onClick={() => {
+              this.setState({ introActive: true });
+              this.setState({ tourActive: false });
+            }}
+          />
+        </div>
         <Intro
           enabled={this.state.introActive}
           hideIntro={() => {
