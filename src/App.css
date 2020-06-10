@@ -5,3 +5,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.transparent {
+  background:#7f7f7f;
+  background:rgba(255,255,255,0.4);
+}
