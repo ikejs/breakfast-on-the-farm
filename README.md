@@ -2,7 +2,7 @@
 
 A React mobile site for the VirClar Farms drive-through tour.
 
-Live on [fdltours.com](http://fdltours.com)
+Live on [tourfdl.com](http://tourfdl.com)
 
 ## Installation &amp; Usage
 
