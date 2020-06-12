@@ -15,32 +15,32 @@ class Tour extends Component {
       return (
         <div className="col-md-12 mt-4">
           <div className="rounded p-3 mb-4 transparent text-center text-white">
-            <h3><strong>Station 2</strong></h3>
+            <h3><strong>Station 2</strong> | Barn</h3>
             <hr />
             <ReactAudioPlayer controls src={sound2} />
           </div>
           <div className="rounded p-3 mb-4 transparent text-center text-white">
-            <h3><strong>Station 3</strong></h3>
+            <h3><strong>Station 3</strong> | Calves</h3>
             <hr />
             <ReactAudioPlayer controls src={sound3} />
           </div>
           <div className="rounded p-3 mb-4 transparent text-center text-white">
-            <h3><strong>Station 4</strong></h3>
+            <h3><strong>Station 4</strong> | Digesters</h3>
             <hr />
             <ReactAudioPlayer controls src={sound4} />
           </div>
           <div className="rounded p-3 mb-4 transparent text-center text-white">
-            <h3><strong>Station 5</strong></h3>
+            <h3><strong>Station 5</strong> | Equipment</h3>
             <hr />
             <ReactAudioPlayer controls src={sound5} />
           </div>
           <div className="rounded p-3 mb-4 transparent text-center text-white">
-            <h3><strong>Station 6</strong></h3>
+            <h3><strong>Station 6</strong> | Feed &amp; Grain</h3>
             <hr />
             <ReactAudioPlayer controls src={sound6} />
           </div>
           <div className="rounded p-3 mb-4 transparent text-center text-white">
-            <h3><strong>Station 7</strong></h3>
+            <h3><strong>Station 7</strong> | Close</h3>
             <hr />
             <ReactAudioPlayer controls src={sound7} />
           </div>

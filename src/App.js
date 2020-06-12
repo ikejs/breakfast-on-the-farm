@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Intro from './Intro';
 import Tour from './Tour';
-import logo from './logo.jpg';
+import logo from './logo.png';
 import './App.css';
 
 class App extends Component {
