@@ -6,7 +6,6 @@ import sound3 from'./audio/3.mp3';
 import sound4 from'./audio/4.mp3';
 import sound5 from'./audio/5.mp3';
 import sound6 from'./audio/6.mp3';
-import sound7 from'./audio/7.mp3';
 
 
 class Tour extends Component {
@@ -17,32 +16,27 @@ class Tour extends Component {
           <div className="rounded p-3 mb-4 transparent text-center text-white">
             <h3><strong>Station 2</strong> | Barn</h3>
             <hr />
-            <ReactAudioPlayer controls src={sound2} />
+            <ReactAudioPlayer controls src={sound2} title="Vir-Clar Farms Tour" />
           </div>
           <div className="rounded p-3 mb-4 transparent text-center text-white">
             <h3><strong>Station 3</strong> | Calves</h3>
             <hr />
-            <ReactAudioPlayer controls src={sound3} />
+            <ReactAudioPlayer controls src={sound3} title="Vir-Clar Farms Tour" />
           </div>
           <div className="rounded p-3 mb-4 transparent text-center text-white">
             <h3><strong>Station 4</strong> | Digesters</h3>
             <hr />
-            <ReactAudioPlayer controls src={sound4} />
+            <ReactAudioPlayer controls src={sound4} title="Vir-Clar Farms Tour" />
           </div>
           <div className="rounded p-3 mb-4 transparent text-center text-white">
             <h3><strong>Station 5</strong> | Equipment</h3>
             <hr />
-            <ReactAudioPlayer controls src={sound5} />
+            <ReactAudioPlayer controls src={sound5} title="Vir-Clar Farms Tour" />
           </div>
           <div className="rounded p-3 mb-4 transparent text-center text-white">
             <h3><strong>Station 6</strong> | Feed &amp; Grain</h3>
             <hr />
-            <ReactAudioPlayer controls src={sound6} />
-          </div>
-          <div className="rounded p-3 mb-4 transparent text-center text-white">
-            <h3><strong>Station 7</strong> | Close</h3>
-            <hr />
-            <ReactAudioPlayer controls src={sound7} />
+            <ReactAudioPlayer controls src={sound6} title="Vir-Clar Farms Tour" />
           </div>
         </div>
       )
