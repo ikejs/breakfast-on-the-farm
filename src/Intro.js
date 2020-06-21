@@ -12,8 +12,8 @@ class Intro extends Component {
             title="Intro Video" 
             className="w-100 pb-2"
             style={{backgroundColor: '#5180AD'}} 
-            height="315" 
-            src="https://www.youtube.com/embed/o2b204_x-Us?controls=0" 
+            height="220" 
+            src="https://www.youtube.com/embed/Spb4kmAW0Oc?controls=0" 
             frameborder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen
